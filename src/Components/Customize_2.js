@@ -25,7 +25,7 @@ const Customize_2 = () => {
     return (
         <section className="customize">
             <div className="container" data-aos="fade-up" data-aos-delay="1000">
-                <div className="row customize-row" style={{display: "flex" flex-direction: "row"}}>
+                <div className="row customize-row" style={{display: "flex", flexDirection: "row"}}>
                     <div className="customize-img">
                         <h4>Select a Date for Delivery</h4>
                         <MuiPickersUtilsProvider utils={DateFnsUtils}>
