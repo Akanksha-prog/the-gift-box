@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className="row section-title justify-content-center">
                     <h3>Contact Us</h3>
                 </div>
-                <div className="row contact-row-1" style={{display:flex}}>
+                <div className="row contact-row-1" style={{display: 'flex' }}>
                     <div className="contact-box-1">
                         <SiGmail className='icon'/>
                         <h6>xyz@gmail.com </h6>
